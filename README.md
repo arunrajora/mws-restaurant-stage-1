@@ -12,10 +12,11 @@ For the **Restaurant Reviews** projects, we will incrementally convert a static 
 2. node.js
 3. npm
 
-### Installation
+### Installation, Running & Verification
 
-1. install grunt globally using ` npm install grunt -g `.
-2. run ` npm install ` to install dependencies.
-3. (OPTIONAL: Already done!) run ` grunt ` to create responsive version of images from src_img directory to img directory.
-4. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-5. With your server running, visit the site: `http://localhost:8000`
+1. replace YOUR_GOOGLE_MAPS_API_KEY in index.html and restaurant.html with your google map api key. 
+2. install grunt globally using ` npm install grunt -g `.
+3. run ` npm install ` to install dependencies.
+4. (OPTIONAL: Already done!) run ` grunt ` to create responsive version of images from src_img directory to img directory.
+5. In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+6. With your server running, visit the site: `http://localhost:8000`
