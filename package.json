@@ -1,0 +1,8 @@
+{
+  "name": "MWS Restaurant",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-responsive-images": "^1.10.1"
+  }
+}

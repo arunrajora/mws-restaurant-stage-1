@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Restaurant Reviews</title>
@@ -11,26 +11,33 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="page-header">
             <h1><a href="/">Restaurant Reviews</a></h1>
         </nav>
     </header>
 
     <main id="maincontent">
-        <section id="map-container">
-            <div id="map"></div>
-        </section>
         <section>
+            <!-- Filter form moved to top since when in between, it changed both the map above and list below. can be confusing for accessibility -->
             <div class="filter-options">
                 <h2>Filter Results</h2>
-                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                <select id="neighborhoods-select" aria-label="filter by neighborhood" name="neighborhoods" onchange="updateRestaurants()">
                     <option value="all">All Neighborhoods</option>
                 </select>
-                <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+                <select id="cuisines-select" aria-label="filter by cuisines" name="cuisines" onchange="updateRestaurants()">
                     <option value="all">All Cuisines</option>
                 </select>
             </div>
-            <ul id="restaurants-list"></ul>
+            <section id="map-container" role="application" aria-labelledby="map-title">
+                <!-- A heading just for accessibility, labelling the map container -->
+                <h2 id="map-title" aria-hidden="true">Map showing restaurants found.</h2>
+                <!-- A quick link for accessibility to jump to results not visible and in normal tab focus -->
+                <a id="skip-to-result" href="#restaurants-result" tabindex="-1">Skip to Found Restaurants</a>
+                <div id="map"></div>
+            </section>
+            <section aria-label="Restaurants found" id="restaurants-result" >
+                <ul id="restaurants-list"></ul>
+            </section>
         </section>
     </main>
 
