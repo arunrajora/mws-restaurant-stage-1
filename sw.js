@@ -1,5 +1,6 @@
 const CACHE_VERSION = 4.0
 const CACHE_NAME = `restaurant-v${CACHE_VERSION}`;
+
 // Dimensions of various responsive images available :)
 const IMAGE_DIMENSIONS = [270, 640, 800];
 

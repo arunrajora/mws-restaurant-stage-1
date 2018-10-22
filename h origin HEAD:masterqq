@@ -1,0 +1,71 @@
+[33mcommit 6b6c7bb9107382ad68955a32c8b8c459c0b3291f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: arunrajora <rajora.rajora2@gmail.com>
+Date:   Mon Oct 22 07:46:31 2018 +0530
+
+    add newline character
+
+[33mcommit 23eb94042d32c19641ee8ac875b367c3466be69a[m
+Author: arunrajora <rajora.rajora2@gmail.com>
+Date:   Tue Mar 13 19:38:32 2018 +0530
+
+    Fix: correct package name
+
+[33mcommit c6fe62f03c3ae6d0b76049e443046cee783f24c6[m
+Author: arunrajora <rajora.rajora2@gmail.com>
+Date:   Tue Mar 13 01:50:27 2018 +0530
+
+    FIX: Add google map API key placeholder
+
+[33mcommit a1a42b057ca3d4c08157e45b168b3a845d86d3d9[m
+Author: arunrajora <rajora.rajora2@gmail.com>
+Date:   Tue Mar 13 01:43:16 2018 +0530
+
+    Add responsive images, service worker and accessibility
+
+[33mcommit 5a6e59cd1b4594d386632e69fc67e87a9550a8e9[m
+Author: arunrajora <rajora.rajora2@gmail.com>
+Date:   Sat Mar 10 15:15:35 2018 +0530
+
+    add responsiveness to webpages.
+
+[33mcommit 7faf9bb8c8152032db8b0ca35c8dda48ece7fd03[m
+Author: David Harris <forbiddenvoid@gmail.com>
+Date:   Mon Nov 6 10:40:32 2017 -0800
+
+    Create CODEOWNERS
+
+[33mcommit 06de100d3bd3a7b98b1272210e0f0fa0fa1d664b[m
+Author: David Harris <forbiddenvoid@gmail.com>
+Date:   Mon Aug 28 09:55:42 2017 -0700
+
+    Update Google Maps reference.
+
+[33mcommit a00b2102b1a0d2eff7517f5b9824a6f5c0ef04dc[m
+Author: David Harris <forbiddenvoid@gmail.com>
+Date:   Wed Aug 16 11:09:16 2017 -0700
+
+    Remove redundant comments and type attribute
+
+[33mcommit 0f2655594bf13f39d79832683287005a5ab56b85[m
+Author: David Harris <forbiddenvoid@gmail.com>
+Date:   Tue Aug 15 12:33:47 2017 -0700
+
+    Remove misspelled, unused 'summery'
+
+[33mcommit 6d8cac79487f6411717a3635576b26e2a065f380[m
+Author: David Harris <david@david.harris@udacity.com>
+Date:   Wed Aug 9 13:22:41 2017 -0700
+
+    add a few notes to the README
+
+[33mcommit bc897d8c9e869e242d253008a66892df8c6203da[m
+Author: David Harris <david@david.harris@udacity.com>
+Date:   Wed Aug 9 13:15:00 2017 -0700
+
+    update README for program use
+
+[33mcommit f12593b4c75f5195738ec2bb497bbc723b231ac2[m
+Author: David Harris <david@david.harris@udacity.com>
+Date:   Wed Aug 9 11:22:30 2017 -0700
+
+    initial commit
